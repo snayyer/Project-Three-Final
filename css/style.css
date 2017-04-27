@@ -1,0 +1,165 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #b742b7;
+	margin: 0px;
+	font-family: 'Peddana', serif;
+	color: #ffffff;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#container {
+	padding: 50px 50px 50px 50px;
+	flex: 1;
+}
+
+footer {
+	text-align: right;
+	background: #3fbfa1;
+	border-top: 2px solid rgba(0, 0, 0, 0.25);
+	padding: 0 25px;
+}
+
+header {
+	background: #3fbfa1;
+	padding: 15px 25px;
+	border-bottom: 2px solid rgba(0, 0, 0, .25);
+}
+
+nav {
+	text-align: center;
+}
+
+nav a,
+nav a:visited,
+nav a:active {
+	font-size: 1.5em;
+	margin-right: 50px;
+}
+
+a:hover {
+	color: #000000 !important;
+}
+
+a,
+a:visited,
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+figcaption {
+	text-align: left;
+}
+
+.selected {
+	background: rgba(0, 0, 0, 0.25);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+figure {
+	width: auto;
+	height: auto;
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.25);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+	color: white !important;
+}
+
+h3 {
+	color: #3fbfa1;
+	text-align: center;
+}
+
+.highlight0 {
+	width: 1200px; 
+	height: 800px; 
+	margin: auto;
+	padding: 05px 15px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.highlight1 {
+	padding: 05px 15px;
+	margin: 25px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.highlight2 {
+	width: 700px; 
+	height: 800px; 
+	margin: auto;
+	padding: 05px 15px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.twoColumn {
+	display: flex;
+	padding-bottom: 15px;
+	margin-top: -15px;
+}
+
+.left {
+	flex: 0 75%;
+}
+
+.right {
+	flex: auto;
+	text-align: right;
+}
+
+.right2 {
+	flex: auto;
+	text-align: center;
+}
+
+.sizetext {
+	font-size: 0.69em;
+	font-weight: normal;
+}
+
+.year {
+	color: #F1F1F1;
+	font-style: italic;
+}
+
+span.edu {
+	color: #3fbfa1;
+}
+
+.pushDown {
+	padding-top: 25px;
+}
+
+td {
+	color: #000000 !important;
+	text-align: center;
+}
+
+tr {
+	background-color: #E6E6FA;
+	
+}
+
+table, td, th { 
+	border: 1px solid gray; 
+	text-align: center;
+}
+
+table {
+	padding: 5px;
+}
+
